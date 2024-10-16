@@ -65,7 +65,21 @@ namespace C__practice.StringMethods
 		
 		public void ManipulationMethods() 
 		{
+			String firstname = "Mololuwa";
+			String lastname = "Segilola";
+			// Concat
+			Console.WriteLine($"{firstname} {lastname}");
+			Console.WriteLine(firstname + " " + lastname);
+			// Console.WriteLine(firstname.Concat(lastname));
+
+			// Replace
+			Console.WriteLine(firstname.Replace("Mololuwa", "Michael"));
+
+			// Insert
+			Console.WriteLine(firstname.Insert(0, "Mr. "));
 			
+			// Remove
+			Console.WriteLine(firstname.Remove(0, 2));
 		}
 	}
 }
