@@ -8,4 +8,7 @@
 using C__practice.StringMethods;
 
 StringMethods obj = new StringMethods();
-obj.GetLength();
+// obj.GetLength();
+// obj.GetToUpperAndLower();
+// obj.TrimMethods();
+obj.SearchingMethods();
