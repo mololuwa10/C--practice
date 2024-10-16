@@ -12,4 +12,5 @@ StringMethods obj = new StringMethods();
 // obj.GetToUpperAndLower();
 // obj.TrimMethods();
 // obj.SearchingMethods();
-obj.ManipulationMethods();
+// obj.ManipulationMethods();
+obj.FormatMethods();

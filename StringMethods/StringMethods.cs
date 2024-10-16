@@ -81,5 +81,11 @@ namespace C__practice.StringMethods
 			// Remove
 			Console.WriteLine(firstname.Remove(0, 2));
 		}
+		
+		public void FormatMethods() 
+		{
+			String name = "Mololuwa";
+			Console.WriteLine(name.PadLeft(5));
+		}
 	}
 }
