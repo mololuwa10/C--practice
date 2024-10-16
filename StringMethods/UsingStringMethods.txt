@@ -1,0 +1,6 @@
+When and Why to Use String Methods
+- Cleaning User Input: Use Trim(), ToLower(), Replace() to clean or standardize data.
+- Data Parsing: Use Split() to break down CSV data, user input, or files into parts.
+- String Validation: Use Contains(), StartsWith(), EndsWith(), and Equals() to validate string content.
+- Dynamic String Construction: Use Format(), Concat(), Join() to dynamically build output strings from data.
+Handling Edge Cases: Always use IsNullOrEmpty() and IsNullOrWhiteSpace() when dealing with possible null or empty strings to avoid errors.

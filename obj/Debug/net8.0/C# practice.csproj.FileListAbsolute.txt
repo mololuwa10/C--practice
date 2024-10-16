@@ -1,0 +1,14 @@
+C:\Users\molol\Documents\C# practice\bin\Debug\net8.0\C# practice.exe
+C:\Users\molol\Documents\C# practice\bin\Debug\net8.0\C# practice.deps.json
+C:\Users\molol\Documents\C# practice\bin\Debug\net8.0\C# practice.runtimeconfig.json
+C:\Users\molol\Documents\C# practice\bin\Debug\net8.0\C# practice.dll
+C:\Users\molol\Documents\C# practice\bin\Debug\net8.0\C# practice.pdb
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.AssemblyInfoInputs.cache
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.AssemblyInfo.cs
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.csproj.CoreCompileInputs.cache
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.dll
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\refint\C# practice.dll
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.pdb
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.genruntimeconfig.cache
+C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\ref\C# practice.dll
