@@ -13,4 +13,10 @@ StringMethods obj = new StringMethods();
 // obj.TrimMethods();
 // obj.SearchingMethods();
 // obj.ManipulationMethods();
-obj.FormatMethods();
+// obj.FormatMethods();
+
+StringExercises obj2 = new StringExercises();
+// obj2.SentenceReverse("My name is Mololuwa Segilola");
+// obj2.RemoveDuplicates("My name is Mololuwa Segilola");
+// obj2.TitleCaseConverter("My name is Mololuwa Segilola");
+obj2.HighsAndLows("1 2 3 4 5 6 7 8 9 10");

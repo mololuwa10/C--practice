@@ -86,6 +86,12 @@ namespace C__practice.StringMethods
 		{
 			String name = "Mololuwa";
 			Console.WriteLine(name.PadLeft(5));
+			
+			Console.WriteLine(name.PadRight(5));
+			
+			String template = "Hello, {0}! You have {1} new {2}.";
+			String result = string.Format(template, name, 4, "games");
+			Console.WriteLine(result);
 		}
 	}
 }
