@@ -5,6 +5,7 @@
 // using System.Linq;
 // using System.Threading.Tasks;
 
+using C__practice.ArrayMethods;
 using C__practice.StringMethods;
 
 StringMethods obj = new StringMethods();
@@ -19,4 +20,7 @@ StringExercises obj2 = new StringExercises();
 // obj2.SentenceReverse("My name is Mololuwa Segilola");
 // obj2.RemoveDuplicates("My name is Mololuwa Segilola");
 // obj2.TitleCaseConverter("My name is Mololuwa Segilola");
-obj2.HighsAndLows("1 2 3 4 5 6 7 8 9 10");
+// obj2.HighsAndLows("1 2 3 4 5 6 7 8 9 10");
+
+ArrayLearning obj3 = new ArrayLearning();
+obj3.ArrayBasic();

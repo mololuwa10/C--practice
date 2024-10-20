@@ -13,3 +13,18 @@ C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.pdb
 C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.genruntimeconfig.cache
 C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\ref\C# practice.dll
 C:\Users\molol\Documents\C# practice\obj\Debug\net8.0\C# practice.sourcelink.json
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\bin\Debug\net8.0\C# practice.exe
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\bin\Debug\net8.0\C# practice.deps.json
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\bin\Debug\net8.0\C# practice.runtimeconfig.json
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\bin\Debug\net8.0\C# practice.dll
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\bin\Debug\net8.0\C# practice.pdb
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\C# practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\C# practice.AssemblyInfoInputs.cache
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\C# practice.AssemblyInfo.cs
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\C# practice.csproj.CoreCompileInputs.cache
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\C# practice.sourcelink.json
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\C# practice.dll
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\refint\C# practice.dll
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\C# practice.pdb
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\C# practice.genruntimeconfig.cache
+C:\Users\segil\OneDrive\Documents\Projects\C--practice\obj\Debug\net8.0\ref\C# practice.dll
