@@ -7,7 +7,7 @@ namespace C__practice.ArrayMethods
 {
 	public class ArrayLearning
 	{
-        readonly int[] numbers = [10, 20, 30, 40, 50];
+		readonly int[] numbers = [10, 20, 30, 40, 50, 9, 4, 5, 7, 100];
 		
 		public void ArrayBasic() 
 		{
@@ -19,6 +19,15 @@ namespace C__practice.ArrayMethods
 			foreach(var item in numbers)
 			{
 				Console.WriteLine(item.ToString());
+			}
+		}
+		
+		// Find the lowest value in the array
+		public void FindLowestValue() 
+		{
+			for(int i = 0; i < numbers.Length; i++) 
+			{
+				
 			}
 		}
 	}

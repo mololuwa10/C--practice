@@ -6,6 +6,7 @@
 // using System.Threading.Tasks;
 
 using C__practice.ArrayMethods;
+using C__practice.DSA.Day1;
 using C__practice.StringMethods;
 
 StringMethods obj = new StringMethods();
@@ -23,4 +24,7 @@ StringExercises obj2 = new StringExercises();
 // obj2.HighsAndLows("1 2 3 4 5 6 7 8 9 10");
 
 ArrayLearning obj3 = new ArrayLearning();
-obj3.ArrayBasic();
+// obj3.ArrayBasic();
+
+DSADay1 dSADay1 = new DSADay1();
+dSADay1.FibonacciMethod();

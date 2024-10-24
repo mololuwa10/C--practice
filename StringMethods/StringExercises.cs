@@ -81,5 +81,11 @@ namespace C__practice.StringMethods
 		 {
 			 return n * n * n;
 		 }
+		 
+		public static String AreYouPlayingBanjo(string name) 
+		{
+			// name.Contains(".")
+			return name.ToLower().StartsWith("r") ? name + " plays banjo" : name + " does not play banjo";
+		}
 	}
 }
