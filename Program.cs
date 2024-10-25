@@ -25,6 +25,7 @@ StringExercises obj2 = new StringExercises();
 
 ArrayLearning obj3 = new ArrayLearning();
 // obj3.ArrayBasic();
+obj3.FindLowestValue();
 
 DSADay1 dSADay1 = new DSADay1();
-dSADay1.FibonacciMethod();
+// dSADay1.FibonacciMethod();

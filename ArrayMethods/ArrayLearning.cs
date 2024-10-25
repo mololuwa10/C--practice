@@ -7,28 +7,44 @@ namespace C__practice.ArrayMethods
 {
 	public class ArrayLearning
 	{
-		readonly int[] numbers = [10, 20, 30, 40, 50, 9, 4, 5, 7, 100];
-		
-		public void ArrayBasic() 
+		// public void ArrayBasic()
+		// {
+		// 	// Display the content of the array
+		// 	// for (int i = 0; i < numbers.Length; i++)
+		// 	// {
+		// 	// 	Console.WriteLine(numbers[i]);
+		// 	// }
+		// 	foreach(var item in numbers)
+		// 	{
+		// 		Console.WriteLine(item.ToString());
+		// 	}
+		// }
+
+		// Find the lowest value in the array
+		public void FindLowestValueUsingConventionalWay()
 		{
-			// Display the content of the array
-			// for (int i = 0; i < numbers.Length; i++)
-			// {
-			// 	Console.WriteLine(numbers[i]);		
-			// }
-			foreach(var item in numbers)
+			int[] numbers = [10, 20, 30, 40, 50, 9, 4, 5, 7, 100];
+			
+			int lowestNumber = numbers[0];
+			
+			for (int i = 1; i < numbers.Length; i++)
 			{
-				Console.WriteLine(item.ToString());
+				// Console.WriteLine(numbers[i]);
+				if (numbers[i] < lowestNumber)
+				{
+					lowestNumber = numbers[i];
+				}
 			}
+			Console.WriteLine("Lowest Value: " + lowestNumber);
 		}
 		
-		// Find the lowest value in the array
-		public void FindLowestValue() 
+		public void FindLowestValueUsingLinq() 
 		{
-			for(int i = 0; i < numbers.Length; i++) 
-			{
-				
-			}
+			int[] numbers = [10, 20, 30, 40, 50, 9, 4, 5, 7, 100];
+
+			int lowestNumber = numbers.Min();
+			
+			Console.WriteLine("Lowest Value: " + lowestNumber);
 		}
 	}
 }
