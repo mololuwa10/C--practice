@@ -7,6 +7,7 @@
 
 using C__practice.ArrayMethods;
 using C__practice.DSA.Day1;
+using C__practice.DSA.Day3;
 using C__practice.StringMethods;
 
 StringMethods obj = new StringMethods();
@@ -25,7 +26,13 @@ StringExercises obj2 = new StringExercises();
 
 ArrayLearning obj3 = new ArrayLearning();
 // obj3.ArrayBasic();
-obj3.FindLowestValue();
+// obj3.FindLowestValue();
 
 DSADay1 dSADay1 = new DSADay1();
 // dSADay1.FibonacciMethod();
+
+DSAArrayOperations dSAArrayOperations = new DSAArrayOperations();
+dSAArrayOperations.TraverseArray();
+// dSAArrayOperations.SortArray();
+// dSAArrayOperations.InsertInArray();
+// dSAArrayOperations.DeleteFromArray();
