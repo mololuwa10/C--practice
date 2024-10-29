@@ -38,4 +38,4 @@ DSAArrayOperations dSAArrayOperations = new DSAArrayOperations();
 // dSAArrayOperations.DeleteFromArray();
 
 ArrayExercises arrayExercises = new ArrayExercises();
-arrayExercises.IsPalindrome("Was it a car or a cat I saw?");
+arrayExercises.IsPalindromeUsingLinq("Was it a car or a cat I saw?");
