@@ -32,7 +32,10 @@ DSADay1 dSADay1 = new DSADay1();
 // dSADay1.FibonacciMethod();
 
 DSAArrayOperations dSAArrayOperations = new DSAArrayOperations();
-dSAArrayOperations.TraverseArray();
+// dSAArrayOperations.TraverseArray();
 // dSAArrayOperations.SortArray();
 // dSAArrayOperations.InsertInArray();
 // dSAArrayOperations.DeleteFromArray();
+
+ArrayExercises arrayExercises = new ArrayExercises();
+arrayExercises.IsPalindrome("Was it a car or a cat I saw?");

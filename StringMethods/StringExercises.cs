@@ -88,20 +88,7 @@ namespace C__practice.StringMethods
 			return name.ToLower().StartsWith("r") ? name + " plays banjo" : name + " does not play banjo";
 		}
 
-		public bool IsAnagram(string s, string t) {
-			if(s.Length != t.Length) 
-			{
-				return false;
-			}
-
-			char[] sArray = s.ToLower().ToCharArray();
-			char[] tArray = t.ToLower().ToCharArray();
-			
-			Array.Sort(sArray);
-			Array.Sort(tArray);
-
-			return sArray.SequenceEqual(tArray);
-		}
+		
 
 		// public int[] TwoSum(int[] nums, int target) {
 		// 	if(nums == null || nums.Length == 0) 
@@ -131,19 +118,6 @@ namespace C__practice.StringMethods
 		// 	return [];
 		//  }
 		
-		public int [] TwoSum(int[] nums, int target) 
-		{
-			for (int i = 0; i < nums.Length; i++)
-			{
-				for (int j = i + 1; j < nums.Length; j++)
-				{
-					if (nums[i] + nums[j] == target)
-					{
-						return [i, j];
-					}
-				}
-			}
-			return [];
-		}
+		
 	}
 }
