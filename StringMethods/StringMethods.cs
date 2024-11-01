@@ -12,6 +12,7 @@ namespace C__practice.StringMethods
 		// Getting the length of the string
 		public void GetLength() 
 		{
+			int lengthOfString = name.Length;
 			// Console.WriteLine(name.Length);
 		}
 		
@@ -27,7 +28,7 @@ namespace C__practice.StringMethods
 			// Trim 
 			Console.WriteLine(name);
 			Console.WriteLine(name.Trim());
-			
+						
 			// TrimStart
 			Console.WriteLine(name.TrimStart());
 			
@@ -92,6 +93,29 @@ namespace C__practice.StringMethods
 			String template = "Hello, {0}! You have {1} new {2}.";
 			String result = string.Format(template, name, 4, "games");
 			Console.WriteLine(result);
+		}
+		
+		public void SplitStrings() 
+		{
+			string phrase = "The quick brown fox jumps over the lazy dog";
+	
+			string[] splittedPhrase = phrase.Split(" "); // Split the string
+	
+			Console.WriteLine(splittedPhrase[0]); // Print the first word
+			for(int i = 0; i < splittedPhrase.Length; i++) 
+			{
+				Console.WriteLine(splittedPhrase[i]); // Print the rest of the words
+			}
+			// Console.WriteLine(splittedPhrase);
+		}
+		
+		public void EmptyOrNullCheck() 
+		{
+			string name = "Mololuwa";
+			Console.WriteLine(name == null);
+			Console.WriteLine(name == "");
+			Console.WriteLine(string.IsNullOrEmpty(name));
+			Console.WriteLine(string.IsNullOrWhiteSpace(name));
 		}
 	}
 }

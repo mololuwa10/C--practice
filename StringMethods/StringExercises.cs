@@ -87,37 +87,8 @@ namespace C__practice.StringMethods
 			// name.Contains(".")
 			return name.ToLower().StartsWith("r") ? name + " plays banjo" : name + " does not play banjo";
 		}
-
 		
-
-		// public int[] TwoSum(int[] nums, int target) {
-		// 	if(nums == null || nums.Length == 0) 
-		// 	{
-		// 		return [];
-		// 	}
-			
-		// 	// for (int i = 0; i < nums.Length; i++) 
-		// 	// {
-		// 	// 	for (int j = i + 1; j < nums.Length; j++) 
-		// 	// 	{
-		// 	// 		if (nums[i] + nums[j] == target) 
-		// 	// 		{
-		// 	// 			return [i, j];
-		// 	// 		}
-		// 	// 	}
-		// 	// }
-			
-		// 	for (int i = 0; i < nums.Length; i++) 
-		// 	{
-		// 		if (nums.Contains(target - nums[i])) 
-		// 		{
-		// 			return [Array.IndexOf(nums, nums[i]), Array.IndexOf(nums, target - nums[i])];
-		// 		}
-		// 	}
-			
-		// 	return [];
-		//  }
-		
+		public void 
 		
 	}
 }

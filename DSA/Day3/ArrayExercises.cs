@@ -77,5 +77,14 @@ namespace C__practice.DSA.Day3
 
 			return lowercaseString.SequenceEqual(lowercaseString.Reverse());
 		}
+		
+		public void TwoDimensionalArray() 
+		{
+			int[,] matrix ={ { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+			foreach (int num in matrix) 
+			{
+				Console.WriteLine(num);
+			}
+		}
 	}
 }

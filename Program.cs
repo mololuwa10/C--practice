@@ -17,6 +17,7 @@ StringMethods obj = new StringMethods();
 // obj.SearchingMethods();
 // obj.ManipulationMethods();
 // obj.FormatMethods();
+obj.SplitStrings();
 
 StringExercises obj2 = new StringExercises();
 // obj2.SentenceReverse("My name is Mololuwa Segilola");
@@ -38,4 +39,5 @@ DSAArrayOperations dSAArrayOperations = new DSAArrayOperations();
 // dSAArrayOperations.DeleteFromArray();
 
 ArrayExercises arrayExercises = new ArrayExercises();
-arrayExercises.IsPalindromeUsingLinq("Was it a car or a cat I saw?");
+// arrayExercises.IsPalindromeUsingLinq("Was it a car or a cat I saw?");
+// arrayExercises.TwoDimensionalArray();
