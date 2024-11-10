@@ -88,7 +88,35 @@ namespace C__practice.StringMethods
 			return name.ToLower().StartsWith("r") ? name + " plays banjo" : name + " does not play banjo";
 		}
 		
-		public void 
+		public static string ReverseString() 
+		{
+			string str = "Hello";
+			char[] sArray = str.ToCharArray();
+			Array.Reverse(sArray);
+			return new string(sArray);
+		}
+
+		public List<List<string>> GroupAnagrams(string[] strs) {
+			var res = new Dictionary<string, List<string>>();
+			foreach (string word in strs) 
+			{
+				char[] sArray = word.ToCharArray();
+				Array.Sort(sArray);
+				string sortedString = new(sArray);
+				if (!res.ContainsKey(sortedString)) 
+				{
+					res[sortedString] = new List<string>();
+				}
+				res[sortedString].Add(word);
+			}
+			
+			return [.. res.Values];       
+		}
+		
+		public static string BreakCamelCase(string str)
+		{
+			return string.Join(" ", str.Select(c => char.IsUpper(c) ? " " + c : c.ToString()));
+		}
 		
 	}
 }
