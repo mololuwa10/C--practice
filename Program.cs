@@ -8,6 +8,7 @@
 using C__practice.ArrayMethods;
 using C__practice.DSA.Day1;
 using C__practice.DSA.Day3;
+using C__practice.LINQ;
 using C__practice.StringMethods;
 
 StringMethods obj = new StringMethods();
@@ -17,7 +18,7 @@ StringMethods obj = new StringMethods();
 // obj.SearchingMethods();
 // obj.ManipulationMethods();
 // obj.FormatMethods();
-obj.SplitStrings();
+// obj.SplitStrings();
 
 StringExercises obj2 = new StringExercises();
 // obj2.SentenceReverse("My name is Mololuwa Segilola");
@@ -41,3 +42,14 @@ DSAArrayOperations dSAArrayOperations = new DSAArrayOperations();
 ArrayExercises arrayExercises = new ArrayExercises();
 // arrayExercises.IsPalindromeUsingLinq("Was it a car or a cat I saw?");
 // arrayExercises.TwoDimensionalArray();
+
+Where where = new();
+// where.FilterPositiveNumbers();
+// where.FilterShortStrings();
+// where.FilterEvenIndexedElements();
+// where.FilterExpensiveProducts();
+// where.FilterPeopleOver18();
+
+Select select = new();
+select.SelectSquares();
+// select.SelectLongStrings();
