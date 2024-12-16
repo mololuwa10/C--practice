@@ -25,6 +25,7 @@ StringExercises obj2 = new StringExercises();
 // obj2.RemoveDuplicates("My name is Mololuwa Segilola");
 // obj2.TitleCaseConverter("My name is Mololuwa Segilola");
 // obj2.HighsAndLows("1 2 3 4 5 6 7 8 9 10");
+obj2.Solution("ABCDEFGH");
 
 ArrayLearning obj3 = new ArrayLearning();
 // obj3.ArrayBasic();
@@ -51,5 +52,9 @@ Where where = new();
 // where.FilterPeopleOver18();
 
 Select select = new();
-select.SelectSquares();
-// select.SelectLongStrings();
+// select.SelectSquares();
+// select.CreateFirstAndLastNames();
+// select.SelectSquares();
+// select.CreateFirstAndLastNames();
+// select.AgeFromBirthYear();
+// select.GetInitials();
